@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1> Bienvenid@ a nuestra Calculadora </h1> <br>
+    <form action="">
+        <input type="text" placeholder="Escribe un número" id="num1">  <br><br>
+        <input type="text" placeholder="Escribe un número" id="num2">  <br><br>
+        <input type="button" value="SUMAR" id="btnSumar">
+    </form>
+
+    <script>    
+    const btnSumar= document.getElementById('btnSumar');
+    btnSumar.addEventListener('click',() => {
+        let num1 = document.getElementById('num1').value;
+        let num2 = document.getElementById('num2').value;
+        const suma = parseInt(num1) + parseInt(num2);
+
+        console.log("La suma es: " + suma);
+    })
+    </script>
+</body>
+</html>

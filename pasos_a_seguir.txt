@@ -1,0 +1,24 @@
+Ejem 
+Crear formulario
+Del addEvent listener
+Registrar con correo
+
+
+
+
+pasos a seguir:
+
+1- Crear proyecto Firebase - SDK
+2- Crear el formulario en html (colocar el SDK)
+3- En firebase: habilitar la autenticación por correo
+4- Capturar las variables: email y password, y enviarlas a firebase (con javascript)
+
+
+
+
+
+
+
+
+
+
